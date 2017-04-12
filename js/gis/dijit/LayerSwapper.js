@@ -178,7 +178,9 @@ define([
             return layers;
         },
         _resetLayerSwipe: function() {
-            this.layerSwipeTypeSelect.set('value', 'none');
+            if (this.layerSwipe) {
+              this.layerSwipeTypeSelect.set('value', 'none');
+            }
         },
         reset: function() {
             this.layerSelectDijit.set('value', 0);
