@@ -303,7 +303,7 @@ define([
                 position: 2,
                 options: {
                     map: true,
-                    legendLayerInfos: false
+                    legendLayerInfos: true
                 }
             },
 			layerSwapper: {
