@@ -22,6 +22,8 @@ define({
         },
         viewer: {
             operationalLayers: {
+				centerline: 'Inundated Centerline',
+				rightofway: "Inundated Highway/ROW",
                 damageAssessment: 'Damage Assessment',
                 louisvillePubSafety: 'Louisville Public Safety',
                 restaurants: 'Restaurants',
