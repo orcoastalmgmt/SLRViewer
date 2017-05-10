@@ -142,12 +142,18 @@ define([
 			 type: 'feature',
 			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/0',
 			 title: i18n.viewer.operationalLayers.centerline,
+			 options: {
+				 visible: false
+			 },
 		
 		},
 		 {
 			 type: 'feature',
 			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/1',
 			 title: i18n.viewer.operationalLayers.rightofway,
+			 options: {
+				 visible: false 
+			 },
 		 }
             // type: 'feature',
             // url: 'https://services1.arcgis.com/6bXbLtkf4y11TosO/arcgis/rest/services/Restaurants/FeatureServer/0',
