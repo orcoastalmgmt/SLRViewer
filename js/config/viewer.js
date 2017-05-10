@@ -138,23 +138,23 @@ define([
         // The 'options' object is passed as the layers options for constructor. Title will be used in the legend only. id's must be unique and have no spaces.
         // 3 'mode' options: MODE_SNAPSHOT = 0, MODE_ONDEMAND = 1, MODE_SELECTION = 2
          operationalLayers: [
-		 {
-			 type: 'feature',
-			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/0',
-			 title: i18n.viewer.operationalLayers.centerline,
-			 options: {
-				 visible: false
-			 },
-		
-		},
-		 {
-			 type: 'feature',
-			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/1',
-			 title: i18n.viewer.operationalLayers.rightofway,
-			 options: {
-				 visible: false 
-			 },
-		 }
+        		 {
+        			 type: 'feature',
+        			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/0',
+        			 title: i18n.viewer.operationalLayers.centerline,
+        			 options: {
+        				 visible: false
+        			 },
+
+        		},
+        		 {
+        			 type: 'feature',
+        			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/1',
+        			 title: i18n.viewer.operationalLayers.rightofway,
+        			 options: {
+        				 visible: false
+        			 },
+        		 }
             // type: 'feature',
             // url: 'https://services1.arcgis.com/6bXbLtkf4y11TosO/arcgis/rest/services/Restaurants/FeatureServer/0',
             // title: i18n.viewer.operationalLayers.restaurants,
@@ -326,7 +326,7 @@ define([
 						{
 							'label': '2030 Flooding', //name of layer in selector
 							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2030/MapServer', //url to dynamic or tiled service
-							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'									
+							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						},
 						{
 							'label': '2050 Flooding', //name of layer in selector
@@ -340,7 +340,7 @@ define([
 						}
 					],
 					//legendLayerInfos: true
-										
+
 					}
 			},
             layerControl: {
