@@ -138,23 +138,23 @@ define([
         // The 'options' object is passed as the layers options for constructor. Title will be used in the legend only. id's must be unique and have no spaces.
         // 3 'mode' options: MODE_SNAPSHOT = 0, MODE_ONDEMAND = 1, MODE_SELECTION = 2
          operationalLayers: [
-        		 {
-        			 type: 'feature',
-        			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/0',
-        			 title: i18n.viewer.operationalLayers.centerline,
-        			 options: {
-        				 visible: false
-        			 },
+        		 // {
+        			 // type: 'feature',
+        			 // url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/0',
+        			 // title: i18n.viewer.operationalLayers.centerline,
+        			 // options: {
+        				 // visible: false
+        			 // },
 
-        		},
-        		 {
-        			 type: 'feature',
-        			 url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/1',
-        			 title: i18n.viewer.operationalLayers.rightofway,
-        			 options: {
-        				 visible: false
-        			 },
-        		 }
+        		// },
+        		 // {
+        			 // type: 'feature',
+        			 // url: 'http://arc.lcd.state.or.us:6080/arcgis/rest/services/DLCD_slr/allEstuaries_allScenarios_ODOT/MapServer/1',
+        			 // title: i18n.viewer.operationalLayers.rightofway,
+        			 // options: {
+        				 // visible: false
+        			 // },
+        		 // }
             // type: 'feature',
             // url: 'https://services1.arcgis.com/6bXbLtkf4y11TosO/arcgis/rest/services/Restaurants/FeatureServer/0',
             // title: i18n.viewer.operationalLayers.restaurants,
@@ -305,7 +305,8 @@ define([
                 path: 'gis/dijit/Legend',
                 title: i18n.viewer.widgets.legend,
                 iconClass: 'fa-picture-o',
-                open: false,
+                open: true,
+				canFloat: true,
                 position: 2,
                 options: {
                     map: true,
@@ -319,22 +320,22 @@ define([
 				title: 'Future Estuarine Flooding Scenarios',
 				path: 'gis/dijit/LayerSwapper',
 				open: true,
-				position: 0,
+				position: 1,
 				options: {
 					map: true,
 					layerInfos: [
 						{
-							'label': '2030 Flooding', //name of layer in selector
+							'label': '2030 Flooding and Impacted Assets', //name of layer in selector
 							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2030/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						},
 						{
-							'label': '2050 Flooding', //name of layer in selector
+							'label': '2050 Flooding and Impacted Assets', //name of layer in selector
 							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2050/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						},
 						{
-							'label': '2100 Flooding', //name of layer in selector
+							'label': '2100 Flooding and Impacted Assets', //name of layer in selector
 							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2100/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						}
@@ -344,7 +345,7 @@ define([
 					}
 			},
             layerControl: {
-                include: true,
+                include: false,
                 id: 'layerControl',
                 type: 'titlePane',
                 path: 'gis/dijit/LayerControl',
@@ -544,9 +545,11 @@ define([
             help: {
                 include: true,
                 id: 'help',
-                type: 'floating',
+                type: 'titlePane',
                 path: 'gis/dijit/Help',
-                title: i18n.viewer.widgets.help,
+                title: 'About',
+				position: 0,
+				open: true,
                 options: {}
             }
         }

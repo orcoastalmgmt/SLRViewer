@@ -40,7 +40,7 @@ define({
                 draw: 'Draw',
                 editor: 'Editor',
                 find: 'Find',
-                help: 'Help',
+                help: 'About',
                 identify: 'Identify',
                 measure: 'Measurement',
                 layerControl: 'Layers',

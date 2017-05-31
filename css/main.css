@@ -58,7 +58,7 @@ body, html {
     right: 0;
     border: none;
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #CCCCCC;
 }
 #sidebarLeft {
     width: 334px;
@@ -67,6 +67,7 @@ body, html {
     overflow: auto;
     overflow-x: hidden;
     border-right: 1px solid #B5BCC7;
+	background-color: #CCCCCC;
 }
 #sidebarRight {
     width: 300px;
