@@ -6,7 +6,8 @@ define({
             description: "An exposure inventory is in progress to determine the assets and geographies most likely to be affected by sea level rise in 21 of Oregon’s estuaries," +
 			"and prioritize areas to focus future resources and further study. Project end date is December 2017." +
 			"This project is being completed through the NOAA Coastal Management Fellowship program, supported by the Oregon Coastal Management Program (OCMP) and the NOAA Office of "+
-			"Coastal Management. Please contact Julie Sepanik, julie.sepanik@state.or.us with questions." 
+			"Coastal Management. Please contact Julie Sepanik, julie.sepanik@state.or.us with questions."+
+			"This product is for informational purposes, and may not be suitable for legal, engineering or surveying purposes. This information or data is provided with the understanding that conclusions drawn from such information are the responsibility of the user." 
             // pan1: 'Drag to pan',
             // recenter: 'SHIFT + Click to recenter',
             // zoomIn1: 'SHIFT + Drag to zoom in',
