@@ -22,20 +22,20 @@ define({
         },
         viewer: {
             operationalLayers: {
-				centerline: 'Inundated Centerline',
-				rightofway: "Inundated Highway/ROW",
-                damageAssessment: 'Damage Assessment',
-                louisvillePubSafety: 'Louisville Public Safety',
-                restaurants: 'Restaurants',
-                sf311Incidents: 'San Francisco 311 Incidents'
+				// centerline: 'Inundated Centerline',
+				// rightofway: "Inundated Highway/ROW",
+                // damageAssessment: 'Damage Assessment',
+                // louisvillePubSafety: 'Louisville Public Safety',
+                // restaurants: 'Restaurants',
+                // sf311Incidents: 'San Francisco 311 Incidents'
             },
             titles: {
-                header: 'Future Estuarine Flooding',
-                pageTitle: 'Future Estuarine Flooding',
+                header: 'Sea Level Rise Exposure Inventory',
+                pageTitle: 'Sea Level Rise Exposure Inventory',
                 subHeader: 'Sea level rise coupled with flood events in 2030, 2050, and 2100'
             },
             widgets: {
-                bookmarks: 'Bookmarks',
+                bookmarks: 'Estuary Bookmarks',
                 directions: 'Directions',
                 draw: 'Draw',
                 editor: 'Editor',

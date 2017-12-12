@@ -20,7 +20,7 @@ define([
         widgetsInTemplate: true,
         templateString: template,
         i18n: i18n,
-        html: '<a href="#">link</a>'.replace('link', i18n.link),
+        html: '<a href="#">About</a>'.replace('link', i18n.link),
         domTarget: 'helpDijit',
         draggable: false,
         baseClass: 'helpDijit',

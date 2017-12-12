@@ -3,35 +3,26 @@ define({
         link: 'About',
         navigation: {
             title: 'About',
-            description: "An exposure inventory is in progress to determine the assets and geographies most likely to be affected by sea level rise in 21 of Oregon’s estuaries," +
-			"and prioritize areas to focus future resources and further study. Project end date is December 2017." +
-			"This project is being completed through the NOAA Coastal Management Fellowship program, supported by the Oregon Coastal Management Program (OCMP) and the NOAA Office of "+
-			"Coastal Management. Please contact Julie Sepanik, julie.sepanik@state.or.us with questions."+
-			"This product is for informational purposes, and may not be suitable for legal, engineering or surveying purposes. This information or data is provided with the understanding that conclusions drawn from such information are the responsibility of the user." 
-            // pan1: 'Drag to pan',
-            // recenter: 'SHIFT + Click to recenter',
-            // zoomIn1: 'SHIFT + Drag to zoom in',
-            // zoomOut1: 'SHIFT + CTRL + Drag to zoom out',
-            // zoomIn2: 'Mouse Scroll Forward to zoom in',
-            // zoomOut2: 'Mouse Scroll Backward to zoom out',
-            // pan2: 'Use Arrow keys to pan',
-            //zoomInLevel: '+ key to zoom in a level',
-            //zoomOutLevel: '- key to zoom out a level',
-            //zoomCenter: 'Double Click to Center and Zoom in'
+            description: "The Estuary Sea Level Rise Exposure Inventory identified infrastructure and other assets within six scenarios that represent future flooding along "+
+			"Oregon’s estuaries. The project objective was to identify the assets and geographies most likely to be impacted by sea-level rise in 21 of Oregon’s estuaries, and "+
+			"prioritize areas to focus future resources and further study. \nA written report and future flooding scenarios polygons for download complement this webmap, please see www.coastalatlas.net/index.php/tools/planners/68-slr. " +
+			"\nPlease contact Andy Lanier, andy.lanier@state.or.us with questions."+
+			"\nThis product is for informational purposes, and may not be suitable for legal, engineering or surveying purposes. This information or data is provided with the understanding " +
+			"that conclusions drawn from such information are the responsibility of the user." 
+		
         },
         search: {
             title: 'Methods',
-            description: "The sea level rise scenario polygons displayed in this map were created by using sea-level rise projections coupled with flood event water levels. "+ 
+            description: "The future flooding scenarios displayed in this map were created by using sea-level rise projections coupled with flood event water levels. "+ 
 			"The sea-level rise projections are from the National Research Council of the National Academies \"Sea-Level Rise for the Coasts of California, Oregon, and Washington: Past, Present, and Future\" "+
 			"(2012, pg 96). The report gave a range of sea-level rise projections for 2030, "+
-			"2050, and 2100. We used the high value of the range for each year projected, from a 2012 baseline, to provide a large range (23 to 142 cm) of possible water levels. The sea level rise "+
-			"projections used were 23 cm for 2030, 48 cm for 2050, and 142 cm for 2100. The flood event levels were determined from water level exceedance analysis at select NOAA tide gauges. The "+
-			"flood event levels used were the 1% and 50% annual probability values, referred to as a moderate and major flood, respectively. For example, the 50% exceedance elevation is 0.8 m above Mean Higher High Water (MHHW) at South Beach, Oregon. This "+
-			"means there is a 50% chance that the tide will exceed 0.8 m above MHHW in a given year, or on average, once every two year period. The 50% and 1% flood event water levels were taken from NOAA’s "+
-			"extreme water levels at the Crescent City, Charleston, South Beach, and Astoria tide stations"
-            //address: 'Search by Address',
-            //place: 'Search by Place Name',
-            //etc: 'Search By Zip Code, County, etc.'
+			"2050, and 2100. The upper end of the range for each year projected was used to take precautionary approach and to provide a large range of possible water levels. The 2030, 2050, and 2100 sea-level" +
+			"rise (slr) estimates were 0.75 feet, 1.5 feet, and 4.6 feet, respectively. The coastal flood event water levels were taken from NOAA's extreme water level calculations at the Crescent City, Charleston, " + 
+			"South Beach, and Astoria tide stations. The flood event water levels used were the 1% and 50% annual exceedance probability values. The exposure inventory analysis was an intersection between each of the "+ 
+			"future flooding scenarios and location data of assets. The assets analyzed and shown in this map were state highways, county/local roads, railways, critical facilities, municipal use drinking water, "+
+			"wastewater treatment plants, electric substations, and potential contaminant sources. For more details on the methods, please see the written report available at " +
+			"www.coastalatlas.net/index.php/tools/planners/68-slr."
+      
         },
         tools: {
             title: 'Help',

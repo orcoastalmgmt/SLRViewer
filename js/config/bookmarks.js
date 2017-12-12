@@ -41,6 +41,10 @@ define([
                 name: 'Siletz River'
             },
 			{
+                extent: {"xmin":-13814521.449747568,"ymin":5589681.299181899,"xmax":-13805349.006353104,"ymax":5593980.882023053,"spatialReference":{"wkid":102100}},
+                name: 'Depoe Bay'
+            },
+			{
                 extent:  {"xmin":-13818868.805731129,"ymin":5551348.129497174,"xmax":-13786000.883568548,"ymax":5567285.249894612,"spatialReference":{"wkid":102100}},
                 name: 'Yaquina Bay'
             },
@@ -81,7 +85,7 @@ define([
                 name: 'Pistol River'
             },
 			{
-                extent: {"xmin":-13855138.175652396,"ymin":5221923.6468455875,"xmax":-13822270.253489815,"ymax":5237860.767243025,"spatialReference":{"wkid":102100}},
+                extent: {"xmin":-13850356.08407041,"ymin":5161750.984984807,"xmax":-13813666.310493577,"ymax":5178949.3163489485,"spatialReference":{"wkid":102100}},
                 name: 'Chetco River'
             },
 			{

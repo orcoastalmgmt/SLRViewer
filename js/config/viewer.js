@@ -317,7 +317,7 @@ define([
 				include: true,
 				id: 'layerSwapper',
 				type: 'titlePane',
-				title: 'Future Estuarine Flooding Scenarios',
+				title: 'Future Flooding Scenarios',
 				path: 'gis/dijit/LayerSwapper',
 				open: true,
 				position: 1,
@@ -546,11 +546,12 @@ define([
                 include: true,
                 id: 'help',
                 type: 'titlePane',
+				//type: 'floating',
                 path: 'gis/dijit/Help',
                 title: 'About',
 				position: 0,
 				open: true,
-                options: {}
+			    options: {}
             }
         }
     };
