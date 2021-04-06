@@ -326,17 +326,17 @@ define([
 					layerInfos: [
 						{
 							'label': '2030 Flooding and Impacted Assets', //name of layer in selector
-							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2030/MapServer', //url to dynamic or tiled service
+							'url': 'https://gis.lcd.state.or.us/server/rest/services/Projects/OCMP_Fellowship2017_SeaLevelRise_2030Scenario/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						},
 						{
 							'label': '2050 Flooding and Impacted Assets', //name of layer in selector
-							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2050/MapServer', //url to dynamic or tiled service
+							'url': 'https://gis.lcd.state.or.us/server/rest/services/Projects/OCMP_Fellowship2017_SeaLevelRise_2050Scenario/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						},
 						{
 							'label': '2100 Flooding and Impacted Assets', //name of layer in selector
-							'url': 'https://maps.oda.state.or.us/arcgis/rest/services/Projects/OCMP_Fellowship2017_SLR_Scenario2100/MapServer', //url to dynamic or tiled service
+							'url': 'https://gis.lcd.state.or.us/server/rest/services/Projects/OCMP_Fellowship2017_SeaLevelRise_2100Scenario/MapServer', //url to dynamic or tiled service
 							'type': 'dynamic' //type of layer, either 'tile' or 'dynamic'
 						}
 					],
